@@ -1,0 +1,65 @@
+body{
+	width:100%;
+	height:835px;
+	margin:0;
+/*	background-size:cover;*/
+}
+.picture{
+	width:100%;
+	height:80%;
+}
+#sence{
+	width:600px;
+	height:600px;
+	box-shadow: 0 0 20px #ccc;
+	margin:30px auto;
+
+	background: #C3C3C3;
+	border-right:1px solid #C3C3C3;
+	border-bottom:1px solid #C3C3C3;
+
+	position:absolute;
+	left:28%;
+	top:0px;
+}
+.kuai{
+	float:left;
+	margin-left:1px;
+	margin-top:1px;
+	background: #DFDFDF;
+}
+.isWin{
+	width:601px;
+	height:601px;
+	background-color:rgba(86, 86, 86, 0.6);
+	position:absolute;
+	left:28%;
+	top:30px;
+	z-index: 5;
+	display:none;
+}
+.item{
+	width: 500px;
+  	height: 340px;
+    position: absolute;
+    left: 12%;
+    top: 28%;
+    z-index: 10;
+}
+.button{
+	width:150px;
+	height:60px;
+	border-radius: 10px;
+	background:#61b63d;
+	box-shadow: 0px 5px 5px #333;
+	position: absolute;
+    left: 37%;
+    top: 46%;
+    z-index: 20;
+    text-align: center;
+    line-height:60px;
+    color:#FAFAFA;
+    font-size:30px;
+    cursor: pointer;
+}
+
