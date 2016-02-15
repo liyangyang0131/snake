@@ -96,7 +96,7 @@ window.onload = function(){
 		var newHead;
 		if(direction == RIGHT){
 			newHead = {x:snake[last].x,y:snake[last].y+1};
-			$(newHead.x+'_'+newHead.y).style.transform="180deg";
+			// $(newHead.x+'_'+newHead.y).style.transform="180deg";
 		}
 		if(direction == LEFT){
 			newHead = {x:snake[last].x,y:snake[last].y-1};
